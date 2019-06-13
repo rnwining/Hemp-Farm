@@ -1,11 +1,33 @@
 #main {
     border: 1px black;
     text-align: center;
-    background: silver;
+    background: #78866b;
   }
   
+  #thisIs {
+      color: black;
+  }
+
   #cards {
     margin-top: 5em;
     margin-left: 5em;
     margin-right: 5em;
+  }
+
+  #signup {
+      margin-block-end: 5em;
+      text-emphasis-color: black;
+  }
+
+  #Hemp {
+        background-image: ;
+        background-repeat: no-repeat;
+        background-position: right top;
+  }
+
+      
+          
+#change {
+          
+          
   }

@@ -11,7 +11,7 @@
     <title>Wining Way Farms</title>
 </head>
 
-<body>
+<body id="Hemp">
     <div class="ui inverted segment">
         <div class="ui inverted secondary menu">
             <a class="active item">
@@ -27,14 +27,15 @@
     </div>
 
     <div id="main" class="ui container">
+        <a id= "thisIs" href="https://www.hort.purdue.edu/newcrop/ncnu02/v5-284.html">
         <h1>This is Hemp</h1>
-        <form id="hemp-form">
-            <button type="submit" class="ui inverted black button">
+        <!-- <form id="hemp-form">
+            <button type="submit" class="fluid massive ui inverted black button">
                 <i class="icon search"></i>
                 Search For Local Growers
             </button>
-        </form>
-
+        </form> -->
+        </a>
         <div id="cards">
             <div id="card-append" class="ui cards">
                 <div class="ui link cards">
@@ -86,20 +87,23 @@
   </div>
 
   <div>
-    <form>
+    <form id="signup">
       First name:<br>
-      <input type="text" name="firstname"><br>
+      <input id= "first" type="text" name="firstname"><br>
       Last name:<br>
-      <input type="text" name="lastname"><br>
-    </form>
+      <input id="last" type="text" name="lastname"><br>
+    
 
-    <form>
-      <input type="radio" name="gender" value="male" checked> Navy<br>
-      <input type="radio" name="gender" value="female"> Army<br>
-      <input type="radio" name="gender" value="other"> Marines<br>
-      <input type="radio" name="gender" value="male" checked> Chair Force<br>
+    
+      <input type="radio" name="gender" value="male" checked>   Navy   <br>
+      <input type="radio" name="gender" value="female">    Army   <br>
+      <input type="radio" name="gender" value="other">   Marines  <br>
+      <input type="radio" name="gender" value="male" checked> Chair Force <br>
       <input type="radio" name="gender" value="male" checked> Coast Guard<br>
+      <button type="submit">submit</button>
+
     </form>
+    <p id="change"></p>
   </div>
 
   
